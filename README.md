@@ -1,7 +1,3 @@
-#README.MD - cleaning_and_getting_data prog assignment
-#by Pedro Silva
-
-
 *The script run_analysis.R:*
 
 	1. reads all mean and stddev values from both test and train data sets found in UCI HAR data, 
