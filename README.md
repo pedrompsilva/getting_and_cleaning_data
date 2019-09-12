@@ -16,14 +16,12 @@ The code is split in to 3 main blocks:
 		a) read the activity labels into memory
 		b) reads the variable names into memory
 		c) identifies the variables to be read out of the data sets
-		d) standardizes the variable names (all lower, no special chars)
-		
+		d) standardizes the variable names (all lower, no special chars)		
 	block 2 - reads the data sets
 		the same approach is used for both training and test data sets:
 		a) read data from file (only mean and stdev variables)
 		b) read subjects and activities (+ append activity descritions)
-		c) rbind all 3 sets: subject + activity + variables
-		
+		c) rbind all 3 sets: subject + activity + variables		
 	block 3 - assembling the final data set and agregated summary 
 		a) as the data in training and test data is complementary (subject are either train or test, never both), 
 		   simply rbindind both data sets will do the job
