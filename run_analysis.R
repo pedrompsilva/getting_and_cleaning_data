@@ -76,6 +76,6 @@
       rm(testData, trainData)
     
     # write to file
-      write.csv(finalDataSet, file="finalDataSet.csv")
-      write.csv(summaryDataSet, file="summaryDataSet.csv")
+      write.table(summaryDataSet, file="summaryDataSet.txt", row.names = FALSE)
+      summaryDataSet
   
