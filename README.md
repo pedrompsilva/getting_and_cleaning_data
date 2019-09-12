@@ -1,16 +1,19 @@
 This script:
+
 	1. reads all mean and stddev values from both test and train data sets found in UCI HAR data, 
 	2. standardizes the variable names to be applied to the data, 
 	2. joins both training and test data samples in a single data set, 
 	3. outputs a second data set with the average of each variables by subject and activity.
 
 Script Requirements:
+
 	- a "UCI HAR Data" folder in the working directory, 
 	  containing the original folder structure and datasets (as unzipped from source file) in the working directory.
 	- dplyr package
 	- data.table package
 
 The code is split in to 3 main blocks:
+
 	block 1 - prepares the variables' metadata
 		a) read the activity labels into memory
 		b) reads the variable names into memory
