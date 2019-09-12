@@ -1,7 +1,6 @@
-============================================================
-  README.MD - cleaning_and_getting_data prog assignment
-  by Pedro Silva
-============================================================
+#README.MD - cleaning_and_getting_data prog assignment
+#by Pedro Silva
+
 
 *The script run_analysis.R:*
 
