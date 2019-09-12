@@ -1,4 +1,4 @@
-﻿1. the code
+ #*1. Code description
 
 	The code is split in to 3 main blocks:
 
@@ -15,7 +15,7 @@
 			c) cbind all 3 sets into final one: subject + activity + variables
 			
 		block 3 - assembling the final data set and agregated summary 
-			a) as the data in training and test data is complementary (subject are either train or test, never both) a simple rbindind both data sets does the job
+			a) as the data in training and test data is complementary (subject are either train or test, never both) a simple rbind of both data sets gets the job done
 			b) a simple aggregation to build the data average summary
 		
 		
@@ -52,11 +52,10 @@
 
 
 
-2. the output data
-
-	The data is sourced from in both train and test data sets on the original "UCI HAR Data" provided for this assignement.
-	The table below, lists the categories and variables output by the script and provides a mapping to the original variables names 
-	and respective positions in the data sets.
+*2. Data Output
+	
+	The table below, lists the categories and variables output by the script and maps to the original variables names 
+	and respective position in original the data sets.
 
 
 	Column	Variable			Original_Column	Original_Variable
